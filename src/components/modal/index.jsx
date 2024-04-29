@@ -49,9 +49,10 @@ export default function index({modal, projects}) {
                 return <div className={styles.modal} style={{backgroundColor: color}} key={`modal_${index}`}>
                     <Image 
                     src={`/images/${src}`}
-                    width={300}
+                    width={420}
                     height={0}
                     alt="image"
+                    
                     />
                 </div>
                 })
